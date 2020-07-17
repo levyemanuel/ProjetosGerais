@@ -1,0 +1,59 @@
+*{
+     box-sizing: border-box;
+     resize: vertical;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    position: relative;float: left;
+}
+a:hover{
+    color: darkcyan;
+}
+
+body{
+    background-image: url(a.jpg);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    filter:brightness(80%);
+}
+
+.conteudo{
+            border-radius: 7px;
+            text-align: center;
+            padding: 15px;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-bottom: 0%;
+            margin-top: 4%;
+            font-family: roboto;
+            resize: vertical;
+            
+}
+.btn{
+    text-align: center;
+}
+.btn:hover{
+       color: white;
+       
+}
+
+@font-face{
+             font-family: roboto;
+             src: url('roboto/Roboto-Black.ttf.ttf');
+}
+::placeholder{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.recu{
+    color: white;
+    text-decoration: none;
+    position: relative;float: right;
+}

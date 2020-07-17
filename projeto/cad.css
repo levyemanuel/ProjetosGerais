@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    resize: vertical;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: darkcyan 0.1em 0.1em 0.1em 0.1em;
+    font-size: 30px;
+}
+body{
+    background-image: url(aa.jpg);
+    background-size: 1350px;
+    background-repeat: no-repeat;
+}
+
+.conteudo{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0%;
+    font-family: arial;
+    resize: vertical;
+    
+}
+
+.btn{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.tel{
+    display: inline-block;
+    width: 45%;
+
+}
+.cpf{
+    display: inline-block;
+    width: 45%;
+
+}
+.sexo{
+    display: inline-block;
+    width: 45%;
+    margin-left: 10%;
+    
+}
+.senha{
+    display: inline-block;
+    width: 45%;
+}
+.senha2{
+    display: inline-block;
+    width: 45%;
+}
+.data_nasc{
+    display: inline-block;
+    width: 40%;
+    font-size: 13px;
+    font-family: arial;
+    resize: vertical;
+}
+
+::placeholder{
+
+               font-family: 'Times New Roman', Times, serif;
+               font-size: larger;
+               font-weight: bolder;
+}
