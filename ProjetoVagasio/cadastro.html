@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="sortcut icon" href="icone.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cad.css">
+    <title>Cadastro - Vagas IO</title>
+</head>
+<body>
+    <a href="projeto vagas io.html">
+    <img src="icone.png" width="110px">
+    </a>
+    <div class="conteudo">
+
+        <h1>Cadastro</h1>
+        <form action="cadastro.php" method="POST">
+             <br>
+
+            
+                <input type="text"
+                       name="Nome"
+                       placeholder="Nome Completo"
+                       maxlength="100"
+                       required
+                       style="width: 100%;
+                              background: transparent;
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 2px;
+                              border-style: solid;
+                              border-width: 1px;
+                              color: rgb(0, 0, 0);
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 4px;
+                              border-bottom: 2px solid rgb(0, 0, 0);
+                              border-top: 0px;
+                              border-left: 0px;
+                              border-right: 0px;
+                              border-radius: 4px;">
+            <br>     
+             <br>
+            
+                 <input type="email"
+                        name="Email"
+                        placeholder="E-mail"
+                        maxlength="50"
+                        required
+                        style="width: 100%;
+                        padding: 5px;
+                        background: transparent;
+                        margin-top: 2px;
+                        margin-bottom: 7px;
+                        border-radius: 2px;
+                        border-style: solid;
+                        border-width: 1px;
+                        color: rgb(0, 0, 0);
+                        padding: 5px;
+                        margin-top: 2px;
+                        margin-bottom: 7px;
+                        border-radius: 4px;
+                        border-bottom: 2px solid rgb(0, 0, 0);
+                        border-top: 0px;
+                        border-left: 0px;
+                        border-right: 0px;
+                        border-radius: 4px;">
+           <br> 
+         <br>
+            <div class ="senha">
+                <input type="password"
+                       name="Senha"
+                       placeholder="Senha"
+                       minlength="8"
+                       maxlength="100"
+                       required
+                       style="width: 100%;
+                              background: transparent;
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 2px;
+                              border-style: solid;
+                              border-width: 1px;
+                              color: rgb(0, 0, 0);
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 4px;
+                              border-bottom: 2px solid rgb(0, 0, 0);
+                              border-top: 0px;
+                              border-left: 0px;
+                              border-right: 0px;
+                              border-radius: 4px;">
+            
+        </div>
+        <!--
+            <div class="senha2">
+                <input type="password"
+                       name="Senha"
+                       placeholder="Repita sua Senha"
+                       minlength="8"
+                       maxlength="100"
+                       required
+                       style="width: 100%;
+                              background: transparent;
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-left: 10px;
+                              margin-bottom: 7px;
+                              border-radius: 2px;
+                              border-style: solid;
+                              border-width: 1px;
+                              color: rgb(0, 0, 0);
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 4px;
+                              border-bottom: 2px solid rgb(0, 0, 0);
+                              border-top: 0px;
+                              border-left: 0px;
+                              border-right: 0px;
+                              border-radius: 4px;">
+                              </div>
+                            -->
+               
+            <br>
+        <div class="tel"> 
+
+                <input type="number"
+                       name="Telefone" 
+                       maxlength="11"
+                       placeholder="Telefone"
+                       required
+                       style="width: 100%;
+                              background: transparent;
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 2px;
+                              border-style: solid;
+                              border-width: 1px;
+                              color: rgb(0, 0, 0);
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 4px;
+                              border-bottom: 2px solid rgb(0, 0, 0);
+                              border-top: 0px;
+                              border-left: 0px;
+                              border-right: 0px;
+                              border-radius: 4px;">
+            
+        </div>
+        <div class="cpf"> <br>
+            
+                <input type="number" 
+                       name="CPF" 
+                       maxlength="11" 
+                       placeholder="CPF"
+                       required
+                       style="width: 100%;
+                              background: transparent;
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-left: 10px;
+                              margin-bottom: 7px;
+                              border-radius: 2px;
+                              border-style: solid;
+                              border-width: 1px;
+                              color: rgb(0, 0, 0);
+                              padding: 5px;
+                              margin-top: 2px;
+                              margin-bottom: 7px;
+                              border-radius: 4px;
+                              border-bottom: 2px solid rgb(0, 0, 0);
+                              border-top: 0px;
+                              border-left: 0px;
+                              border-right: 0px;
+                              border-radius: 4px;">
+            
+        </div>
+        <br> <br> 
+        <div class ="data_nasc">
+              Informe sua Data de Nascimento:
+            <input type="date"
+                   name="Data_Nasc"
+                   required
+                   style="width: 100%;
+                          background: transparent;
+                          padding: 5px;
+                          margin-top: 2px;
+                          margin-bottom: 7px;
+                          border-radius: 2px;
+                          border-style: solid;
+                          border-width: 1px;
+                          color: rgb(0, 0, 0);
+                          padding: 5px;
+                          margin-top: 2px;
+                          margin-bottom: 7px;
+                          border-radius: 4px;
+                          border-bottom: 2px solid rgb(0, 0, 0);
+                          border-top: 0px;
+                          border-left: 0px;
+                          border-right: 0px;
+                          border-radius: 4px;">
+        </div>
+        <div class="sexo">
+        
+            
+                <select name="Sexo"
+                        required
+                        style="width: 90%;
+                               padding: 5px;
+                               background: transparent;
+                               margin-top: 2px;
+                               margin-bottom: 7px;
+                               border-radius: 2px;
+                               border-style: solid;
+                               border-width: 1px;
+                               border-bottom: 2px solid rgb(0, 0, 0);
+                              border-top: 0px;
+                              border-left: 0px;
+                              border-right: 0px;
+                              border-radius: 4px;">
+                        <option disabled selected>Informe seu sexo</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outro">Outro</option>
+        </select>
+                 
+             </div>
+
+        
+            <div class="btn">
+                <input type="submit"
+                       name="Cadastrar"
+                       value="Cadastrar"
+                       style="padding-top: 10px;
+                       padding-bottom: 10px;
+                       padding-left: 30px;
+                       padding-right: 30px;
+                       background-color: darkcyan;
+                       color: white;
+                       border-radius: 4px;
+                       border-style: solid;
+                       border-width: 0px;">
+            </div>
+        </form>
+       </div>
+</body>
+</html>
