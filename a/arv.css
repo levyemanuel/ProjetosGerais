@@ -1,0 +1,28 @@
+*{
+  font-family: ;
+  padding: 10px;
+  color: white;
+}
+
+body{
+    background-color: silver;
+}
+
+.primaria{
+  background-color: rgb(255, 157, 0);
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.secundariacfo{
+  background-color: rgb(255, 157, 0);
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
