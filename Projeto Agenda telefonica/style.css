@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+body{
+    background: url(fundo.jpg);
+    background-size: 320px;
+    
+    
+}
+.menulateral{
+    background-color: orangered;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    left: -300px;
+    transition: left 0.5s;
+}
+.menulateral .titulo{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 20px;
+    border-bottom: solid 2px white;
+    left: -250px;
+
+}
+.menulateral ul{
+    list-style: none;
+}
+.menulateral ul li{
+    line-height: 40px;
+    border-bottom: solid 1px white;
+}
+#buscaLateral{
+    line-height: 50px;
+    border-bottom: solid 1px white;
+    
+}
+
+.pesquisar:hover{
+    background-color: #fff;
+    color: orangered;
+}
+.menulateral ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+.menulateral ul li a:hover{
+    background-color: white;
+    color: orangered;
+    transition: 0.5s;
+}
+.menulateral ul ul li a{
+    font-size: 12px;
+    padding-left: 50px;
+    background-color: darkorange;
+    transition: 0.5s;
+
+}
+.menulateral ul ul{
+    display: none;
+
+}
+
+.menulateral ul .itenstic.mostra{
+    display: block;
+}
+.menulateral ul .itensRH.mostra{
+    display: block; 
+}
+.menulateral ul .itensfinanceiro.mostra{
+    display: block;
+}
+.menulateral ul .itensqsma.mostra{
+    display: block;
+}
+.menulateral ul .itensfacilites.mostra{
+    display: block;
+}
+.btnabre{
+    top: 12px;
+    position: absolute;
+    left: 20px;
+    background-color: white;
+    color: orangered;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnabre span{
+    font-size: 30px;
+}
+.menulateral.mostra{
+    left: 0;
+}
+.btnfecha{
+    position: relative;
+    
+    top: 3px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btnfecha:hover{
+    border: 1px solid darkorange;
+}
+.menulateral ul li span{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    transition: 0.4s;
+}
+.menulateral ul li span.gira{
+    transform: rotate(90deg);
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+#corpoDoFormulario {
+    padding: 110px;
+    border-radius: 5px;
+    border: 1px;
+    border-radius: 5px;
+    margin-left: 300px;
+}
+
+table {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+tr:nth-child(even) {
+    background-color: #cacacadd;
+}
+
+tr:nth-child(odd) {
+    background-color: cornsilk;
+}
+
+#titulo {
+    background-color: orangered;
+    border: 1px;
+    border-radius: 5px;
+}
+
+#tabela {
+    border: 1px;
+    border-radius: 6px;
+    overflow: hidden;
+}

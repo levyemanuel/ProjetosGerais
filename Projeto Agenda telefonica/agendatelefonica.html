@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="btnabre"><span class="material-icons">
+        menu_open
+        </span></div>
+    <nav class="menulateral">
+<div class="titulo">Agenda telefonica: <span class="material-icons btnfecha">
+    close
+    </span></div>
+    <div id="buscaLateral">
+        <input type="text" name="" id="" placeholder="Insira o nome...">
+        <input class="pesquisar" type="button" value="Buscar">
+        </div>
+<ul>
+    <li>
+        <a id="conselho">Conselho de gestão</a>
+        </li>
+
+    <li>
+        <a id="ceo" >CEO(João)</a>
+    </li>
+
+    <li>
+        <a class="tic">Tic(Lelis) <span class="material-icons seta1">arrow_right
+            </span></a>
+        <ul class="itenstic">
+            <li><a onclick="func()" id="TI1">Suporte</a></li>
+            <li><a onclick="func()" id="TI2">Sistema</a></li>
+            <li><a onclick="func()" id="TI3">Desenvolvimento</a></li>
+        </ul>
+     </li>
+
+    <li>
+        <a class="rh">RH(Maria) <span class="material-icons seta2">arrow_right
+            </span></a>
+            <ul class="itensRH">
+                <li><a onclick="func()" id="rh1">Departamento Pessoal</a></li>
+                <li><a onclick="func()" id="rh2">Desenvolvimento Humano</a></li>
+            </ul>
+        </a>
+    </li>
+
+    <li>
+        <a class="financeiro">Financeiro(joana)  <span class="material-icons seta3">arrow_right
+        </span></a> 
+        <ul class="itensfinanceiro">
+            <li><a onclick="func()" id="financeiro1">Sub Setor</a></li>
+            <li><a onclick="func()" id="financeiro2">Sub Setor 2</a></li>
+            <li><a onclick="func()" id="financeiro3">Sub Setor 3</a></li>
+        </ul>
+        </a>
+    </li>
+
+    <li>
+        <a class="qsma">QSMA(Ricardo) <span class="material-icons seta4">arrow_right
+        </span> </a>
+        <ul class="itensqsma">
+            <li><a onclick="func()" id="qsma1">Sub setor</a></li>
+            <li><a onclick="func()" id="qsma2">Sub setor 2</a></li>
+            <li><a onclick="func()" id="qsma3">Sub setor 3</a></li>
+        </ul>
+    </li>
+    <li>
+        <a class="facilites">Facilites(Mario)  <span class="material-icons seta5">arrow_right
+        </span>  </a>
+        <ul class="itensfacilites">
+            <li><a onclick="func()" id="facilites1">Sub setor</a></li>
+            <li><a onclick="func()" id="facilites2">Sub setor 2</a></li>
+            <li><a onclick="func()" id="facilites3">Sub setor 3</a></li>
+        </ul>
+    </li>
+</ul>
+   
+    </nav>
+  <script>
+      $(document).ready(() => {
+        $('.tic').click(function(){
+            $('.menulateral ul .itenstic').toggleClass('mostra')
+            console.log('teste')
+        });
+        $('.rh').click(function(){
+    $('.menulateral ul .itensRH').toggleClass('mostra')
+    console.log('teste')
+    });
+    $('.btnabre').click(function(){
+    $('.menulateral').toggleClass('mostra');
+    });
+    $('.btnfecha').click(function(){
+    $('.menulateral').toggleClass('mostra');
+    });
+    $('.tic').mouseover(function(){
+     $('.menulateral ul .seta1').toggleClass('gira')
+    });
+    $('.tic').mouseout(function(){
+     $('.menulateral ul .seta1').toggleClass('gira')
+    });
+    $('.rh').mouseover(function(){
+     $('.menulateral ul .seta2').toggleClass('gira')
+    });
+    $('.rh').mouseout(function(){
+     $('.menulateral ul .seta2').toggleClass('gira')
+    });
+    const $menulateral = $('.menulateral');
+    $(document).mouseup(e => {
+        if(!menulateral.is (e.target)
+        && $menulateral.has (e.target).length === 0) {
+            $menulateral.removeClass(mostra)
+        }
+    })
+      },
+      $('#TI1').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#TI2').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#TI3').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      })
+      ) ,
+      $('#rh1').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }) ,
+      $('#rh2').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }) ,
+      $('#financeiro1').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#financeiro2').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#financeiro3').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#qsma1').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#qsma2').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#qsma3').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#ceo').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#conselho').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#facilites1').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#facilites2').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+      $('#facilites3').click(() => {
+        $("#corpoDoFormulario").toggle(500)
+      }),
+
+        
+
+
+
+    //function func() {
+    //document.getElementById('corpoDoFormulario').style.display = 'block';
+    //}
+
+    $('.financeiro').click(function(){
+            $('.menulateral ul .itensfinanceiro').toggleClass('mostra')
+            console.log('teste')
+        });
+    
+        $('.financeiro').mouseover(function(){
+     $('.menulateral ul .seta3').toggleClass('gira')
+    });
+    $('.financeiro').mouseout(function(){
+     $('.menulateral ul .seta3').toggleClass('gira')
+    });
+
+    $('.qsma').click(function(){
+            $('.menulateral ul .itensqsma').toggleClass('mostra')
+            console.log('teste')
+        });
+        $('.qsma').mouseover(function(){
+     $('.menulateral ul .seta4').toggleClass('gira')
+    });
+    $('.qsma').mouseout(function(){
+     $('.menulateral ul .seta4').toggleClass('gira')
+    });
+
+    $('.facilites').click(function(){
+            $('.menulateral ul .itensfacilites').toggleClass('mostra')
+            console.log('teste')
+        });
+        $('.facilites').mouseover(function(){
+     $('.menulateral ul .seta5').toggleClass('gira')
+    });
+    $('.facilites').mouseout(function(){
+     $('.menulateral ul .seta5').toggleClass('gira')
+    });
+
+
+
+
+
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="corpoDoFormulario" style="display: none;">
+        <table id="tabela">
+            <tr id="titulo">
+                <th>Nome</th>
+                <th>Setor</th>
+                <th>Ramal</th>
+                <th>Telefone</th>
+               
+            </tr>
+            <tr>
+                <td>Nome do Cadastrado (Responsável)</td>
+                <td>TIC desenvolvimento</td>
+                <td>12345</td>
+                <td>60810000 (Pessoal)</td>
+               
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de souza</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (wpp)</td>
+                
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de moura</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (Pessoal)</td>
+                
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de aragao</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (wpp)</td>
+                
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de souza</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (wpp)</td>
+                
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de souza</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (Pessoal)</td>
+               
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de souza</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (Pessoal)</td>
+                
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de souza</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (wpp)</td>
+               
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de souza</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (wpp)</td>
+                
+            </tr>
+            <tr>
+                <td>Nome do cadastrado de souza</td>
+                <td>TIC desenvolvimento</td>
+                <td>123456789</td>
+                <td>60810010 (wpp)</td>
+                
+            </tr>
+</body>
+</html>
