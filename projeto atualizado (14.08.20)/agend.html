@@ -1,0 +1,181 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="agn.css">
+    <title>Agenda Telefônica</title>
+</head>
+<body>
+        <div class="conteudo">
+        <div class="img">
+        <img class="log" src="logo.png" width="110px">
+
+        <h2>Agenda Telefônica</h2>
+        </div>
+             <br>
+
+                <input type="text"
+                       name="nome"
+                       class="aaaa"
+                       placeholder="Nome Completo:"
+                       required>
+            <br>     
+            <br>
+            
+                <label>Informe seu Setor:</label>
+                <input list="setor" placeholder="Setores..." class="sel">
+                <datalist id="setor">
+                    <option value="Almoxarife">Almoxarife</option>
+                    <option value="Analista Contábil">Analista Contábil</option>
+                    <option value="Analista de BI">Analista de BI</option>
+                    <option value="Analista de Compras">Analista de Compras</option>
+                    <option value="Analista de Contas a Receber">Analista de Contas a Receber</option>
+                    <option value="Analista de Contas a Pagar">Analista de Contas a Pagar</option>
+                    <option value="Analista de Controladoria">Analista de Controladoria</option>
+                    <option value="Analista de Desenvolvimento Humano">Analista de Desenvolvimento Humano</option>
+                    <option value="Analista de DP">Analista de DP</option>
+                    <option value="Analista de Meio Ambiente">Analista de Meio Ambiente</option>
+                    <option value="Analista de Qualidade">Analista de Qualidade</option>
+                    <option value="Analista de Sistemas e Infraestrutura">Analista de Sistemas e Infraestrutura</option>
+                    <option value="Analista de Tesouraria">Analista de Tesouraria</option>
+                    <option value="Analista Fiscal">Analista Fiscal</option>
+                    <option value="Assessor de Marketing">Assessor de Marketing</option>
+                    <option value="Assessor Jurídico">Assessor Jurídico</option>
+                    <option value="Assistente Administrativo da Manutenção">Assistente Administrativo da Manutenção</option>
+                    <option value="Assistente Comercial Máquinas">Assistente Comercial Máquinas</option>
+                    <option value="Assistente Contábil">Assistente Contábil</option>
+                    <option value="Assistente Contas a Receber">Assistente Contas a Receber</option>
+                    <option value="Assistente de Compras">Assistente de Compras</option>
+                    <option value="Assistente de Contas a Pagar">Assistente de Contas a Pagar</option>
+                    <option value="Assistente de Controladoria">Assistente de Controladoria</option>
+                    <option value="Assistente de Desenvolvimento Humano">Assistente de Desenvolvimento Humano</option>
+                    <option value="Assistente de DP">Assistente de DP</option>
+                    <option value="Assistente de Patrimônio">Assistente de Patrimônio</option>
+                    <option value="Assistente de Tesouraria">Assistente de Tesouraria</option>
+                    <option value="Assistente de Transportes">Assistente de Transportes</option>
+                    <option value="Auxiliar Contábil">Auxiliar Contábil</option>
+                    <option value="Auxiliar de Almoxarifado">Auxiliar de Almoxarifado</option>
+                    <option value="Auxiliar de Manutenção Predial">Auxiliar de Manutenção Predial</option>
+                    <option value="Auxiliar de Mecânico">Auxiliar de Mecânico</option>
+                    <option value="Auxiliar de Serviços Gerais">Auxiliar de Serviços Gerais</option>
+                    <option value="Auxiliar Fiscal">Auxiliar Fiscal</option>
+                    <option value="CEO">CEO</option>
+                    <option value="CFO">CFO</option>
+                    <option value="Conselho de Gestão">Conselho de Gestão</option>
+                    <option value="Consultor de Vendas Caminhões">Consultor de Vendas Caminhões</option>
+                    <option value="Consultor de Vendas de Peças">Consultor de Vendas de Peças</option>
+                    <option value="Consultor de Vendas de Peças e Serviços">Consultor de Vendas de Peças e Serviços</option>
+                    <option value="Consultor de Vendas de Serviços">Consultor de Vendas de Serviços</option>
+                    <option value="Consultor de Vendas Máquinas">Consultor de Vendas Máquinas</option>
+                    <option value="Consultor de Vendas Serviços">Consultor de Vendas Serviços</option>
+                    <option value="Consultor Técnico">Consultor Técnico</option>
+                    <option value="Coordenador Contábil">Coordenador Contábil</option>
+                    <option value="Coordenador de Controladoria">Coordenador de Controladoria</option>
+                    <option value="Coordenador de Oficina e Serviços">Coordenador de Oficina e Serviços</option>
+                    <option value="Coordenador de Pós Vendas Caminhões">Coordenador de Pós Vendas Caminhões</option>
+                    <option value="Coordenador de Venda de Peças">Coordenador de Venda de Peças</option>
+                    <option value="Coordenador de Vendas Máquinas">Coordenador de Vendas Máquinas</option>
+                    <option value="Coordenador Financeiro">Coordenador Financeiro</option>
+                    <option value="Coordenador Técnico">Coordenador Técnico</option>
+                    <option value="CSO">CSO</option>
+                    <option value="Gerente de Manutenção">Gerente de Manutenção</option>
+                    <option value="Gerente de Negócios">Gerente de Negócios</option>
+                    <option value="Gerente de Operações">Gerente de Operações</option>
+                    <option value="Gerente de Pós Vendas Caminhões">Gerente de Pós Vendas Caminhões</option>
+                    <option value="Gerente de Pós Vendas Máquinas">Gerente de Pós Vendas Máquinas</option>
+                    <option value="Gerente de Vendas Caminhões">Gerente de Vendas Caminhões</option>
+                    <option value="Gerente de Vendas de Máquinas">Gerente de Vendas de Máquinas</option>
+                    <option value="Gestor Caminhões">Gestor Caminhões</option>
+                    <option value="Gestor de Desenvolvimento Humano">Gestor de Desenvolvimento Humano</option>
+                    <option value="Gestor de Facilities">Gestor de Facilities</option>
+                    <option value="Gestor de QSMA">Gestor de QSMA</option>
+                    <option value="Gestor de Suprimentos">Gestor de Suprimentos</option>
+                    <option value="Gestor de TIC">Gestor de TIC</option>
+                    <option value="Gestor EngeLog">Gestor EngeLog</option>
+                    <option value="Gestor Financeiro">Gestor Financeiro</option>
+                    <option value="Gestor Máquinas">Gestor Máquinas</option>
+                    <option value="Mecânico">Mecânico</option>
+                    <option value="Officeboy">Officeboy</option>
+                    <option value="Programador">Programador</option>
+                    <option value="Recepcionista">Recepcionista</option>
+                    <option value="Secretária Executiva">Secretária Executiva</option>
+                    <option value="Supervisor de Contas a Pagar">Supervisor de Contas a Pagar</option>
+                    <option value="Supervisor de Contas a Receber">Supervisor de Contas a Receber</option>
+                    <option value="Supervisor de Desenvolvimento Humano">Supervisor de Desenvolvimento Humano</option>
+                    <option value="Supervisor de DP">Supervisor de DP</option>
+                    <option value="Supervisor de Frotas">Supervisor de Frotas</option>
+                    <option value="Supervisor de Manutenção">Supervisor de Manutenção</option>
+                    <option value="Supervisor de Manutenção e Patrimônio">Supervisor de Manutenção e Patrimônio</option>
+                    <option value="Supervisor de Medição">Supervisor de Medição</option>
+                    <option value="Supervisor de Operações">Supervisor de Operações</option>
+                    <option value="Supervisor de Suprimentos (Bandeira)">Supervisor de Suprimentos (Bandeira)</option>
+                    <option value="Supervisor de Suprimentos (Consumo)">Supervisor de Suprimentos (Consumo)</option>
+                    <option value="Supervisor de Tesouraria">Supervisor de Tesouraria</option>
+                    <option value="Supervisor de Vendas de Usados">Supervisor de Vendas de Usados</option>
+                    <option value="Técnico de Medição">Técnico de Medição</option>
+                    <option value="Técnico de Segurança">Técnico de Segurança</option>
+                    <option value="Técnico de Suporte">Técnico de Suporte</option>
+                </datalist>
+
+           <br> 
+         <br>
+            <div class="ramal">
+                <input type="tel"
+                       class="rm1"
+                       name="Ramal"
+                       maxlength="5"
+                       placeholder="Informe o seu Ramal:"
+                       required>
+            
+        </div>
+               
+            <br> <br>
+
+        <div class="tel"> 
+
+                <input type="tel"
+                       class="tl1"
+                       name="Celular" 
+                       maxlength="11"
+                       placeholder="Informe seu número Celular:"
+                       required>
+            
+        </div>
+        <p class="h10">Este é o mesmo número do WhatsApp?</p>
+        <form class="h11">
+            <input type="radio" name="OPCAO" value="op1"> Sim
+            <input type="radio" name="OPCAO" value="op2"> Não
+        </form>
+
+        <br>
+         <p class="p1">Caso não seja:</p>
+         <div class="tel2">
+            <input type="tel"
+                    class="tl2"
+                   name="Celular2" 
+                   maxlength="11"
+                   placeholder="Informe seu número WhatsApp (Opcional):"
+                   required>
+        
+    </div>
+        <br>
+            <div class="btn">
+                <input type="submit"
+                       name="Finalizar"
+                       value="Finalizar"
+                       style="padding-top: 10px;
+                       padding-bottom: 10px;
+                       padding-left: 30px;
+                       padding-right: 30px;
+                       background-color: #4169E1;
+                       color: white;
+                       font-size: small;
+                       border-radius: 4px;
+                       border-style: solid;
+                       border-width: 0px;">
+            </div>
+        </form>
+       </div>
+       
+</body>
+</html>

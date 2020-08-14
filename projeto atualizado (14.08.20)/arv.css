@@ -1,0 +1,466 @@
+*{
+  font-family: ;
+  padding: 10px;
+  color: white;
+}
+
+body{
+    background-color: silver;
+}
+
+.primaria{
+  background-color: #FF4500;
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.secundariacfo{
+  background-color: #707070;
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -5%;
+}
+
+/* CSO */
+#toggle-2 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#hm {
+  display:none;
+}
+
+#toggle-2:checked ~ #hm {
+  display:block;
+}
+/* FIM DO CSO */
+
+.gestor{
+  background-color: #ff6600;
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -2%;
+}
+
+/* CFO */
+#toggle-1 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#mostra {
+  display:none;
+}
+
+#toggle-1:checked ~ #mostra {
+  display:block;
+}
+/* FIM DO CFO */
+
+#toggle-5 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#dez {
+  display:none;
+}
+
+#toggle-5:checked ~ #dez {
+  display:block;
+}
+
+.gestorqsma {
+  background-color: #707070;
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -5%;
+}
+
+/* GESTOR ENGELOG */
+.gesteng{
+  background-color: #707070;
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -4%;
+}
+
+.gesteng1{
+  background-color: rgb(248, 141, 0);
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -3%;
+}
+
+#toggle-4 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#englog {
+  display:none;
+}
+
+#toggle-4:checked ~ #englog {
+  display:block;
+}
+
+
+#toggle-8 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#englog1 {
+  display:none;
+}
+
+#toggle-8:checked ~ #englog1 {
+  display:block;
+}
+
+
+
+#toggle-10 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#englog2 {
+  display:none;
+}
+
+#toggle-10:checked ~ #englog2 {
+  display:block;
+}
+
+#toggle-15 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#englog3 {
+  display:none;
+}
+
+#toggle-15:checked ~ #englog3 {
+  display:block;
+}
+/* FINAL DO GESTOR ENGELOG */
+
+
+
+/* GESTOR TIC */
+.gestortic{
+  background-color: #707070;
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -3%;
+}
+
+#toggle-7 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#tic {
+  display:none;
+}
+
+#toggle-7:checked ~ #tic {
+  display:block;
+}
+/* FINAL DO GESTOR TIC */
+
+/* GESTOR MÁQUINAS */
+
+.gesteng{
+  background-color: #707070;
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -4%;
+}
+
+.gestorma{
+  background-color: rgb(248, 141, 0);
+  padding: 15px;
+  margin-right: 1000px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  position: relative; right: -3%;
+}
+#toggle-12 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestma {
+  display:none;
+}
+
+#toggle-12:checked ~ #gestma {
+  display:block;
+}
+
+#toggle-13 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestma1 {
+  display:none;
+}
+
+#toggle-13:checked ~ #gestma1 {
+  display:block;
+}
+
+
+
+#toggle-14 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestma2 {
+  display:none;
+}
+
+#toggle-14:checked ~ #gestma2 {
+  display:block;
+}
+
+
+/* GESTOR FACILITIES */
+#toggle-20 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestfaci {
+  display:none;
+}
+
+#toggle-20:checked ~ #gestfaci {
+  display:block;
+}
+
+
+#toggle-21 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestfaci1 {
+  display:none;
+}
+
+#toggle-21:checked ~ #gestfaci1 {
+  display:block;
+}
+
+
+#toggle-22 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestfaci2 {
+  display:none;
+}
+
+#toggle-22:checked ~ #gestfaci2 {
+  display:block;
+}
+/* FIM GESTOR FACILITIES */
+
+
+
+/* GESTOR DESENVOLVIMENTO HUMANO */
+
+#toggle-300 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestdh5 {
+  display:none;
+}
+
+#toggle-300:checked ~ #gestdh5 {
+  display:block;
+}
+
+
+#toggle-315 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestdh10 {
+  display:none;
+}
+
+#toggle-315:checked ~ #gestdh10 {
+  display:block;
+}
+
+#toggle-320 {
+  display:none;
+}
+
+label { 
+ -webkit-appearance: push-button;
+ -moz-appearance: button; 
+ display: inline-block;
+ cursor: pointer;
+ padding: 5px;
+}
+
+#gestdh29 {
+  display:none;
+}
+
+#toggle-320:checked ~ #gestdh29 {
+  display:block;
+}
+
+/* FIM DO GESTOR DESENVVOLVIMENTO HUMANO */
