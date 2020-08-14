@@ -1,4 +1,0 @@
-gestor caminhões
-gestor suprimentos
-gestor financeiro
-Gestor de Desenvolvimento Humano
