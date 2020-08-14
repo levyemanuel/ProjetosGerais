@@ -1,2 +1,0 @@
-# VagasIO
-Projeto Vagas IO
