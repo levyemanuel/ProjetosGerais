@@ -1,0 +1,24 @@
+
+ <script>
+         $(document).ready(function(){
+            $('#tabela').dataTable( {
+        "language": {
+            "lengthMenu": "Exibindo _MENU_ dados por página",
+            "zeroRecords": "Dados não encontrados",
+            "info": "Exibindo páginas _PAGE_ de _PAGES_",
+            "infoEmpty": "Nenhum registro encontrado",
+            "infoFiltered": "(filtrado de _MAX_ registros no total)",
+            "infoPostFix": "",
+            "sSearch": "Pesquisar:",
+            "sUrl": "",
+            "oPaginate":{
+                "sFirst": "Primeiro",
+                "sPrevious": "Anterior",
+                "sNext": "Próximo",
+                "sLast": "Último"
+            }
+        }
+    });
+        });
+
+    </script>
