@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Bem vindo! a agenda teleonica fornecedora.</h2>
+                <p class="description description-primary">inicie cadastro de setores!</p>
+                <p class="description description-primary">ou o cadastro de colaboradores...</p>
+                <button id="signin" class="btn btn-primary">Cadastrar pessoas</button>
+            </div>    
+            <div class="second-column">
+                <h2 class="title title-second">Cadastro de setores!</h2>
+                
+                <p class="description description-second">Preencha os dados abaixo...</p>
+                <form class="form" method="GET" action="">
+                    <label class="label-input" for="">
+                        <i class="fas fa-store-alt icon-modify"></i>
+                        <input name="responsavel" type="text" placeholder="Nome do setor">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <select>
+                            <option>
+                                Responsável do setor 
+                            </option>
+                            <option>
+                                João 
+                            </option>
+                            <option>
+                                Jorge
+                            </option>
+                            <option>
+                                Lelis
+                            </option>
+                            <option>
+                                Gabriel 
+                            </option>
+                        </select>
+                    </label>
+                     <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <select name="estado">
+                            <option>
+                               Selecione Setor-pai
+                            </option>
+                            <option>
+                                CEO
+                            </option>
+                            <option>
+                                TIC
+                            </option>
+                            <option>
+                                RH
+                            </option>
+
+                        </select>
+                    </label>
+                    
+                    
+                    <button class="btn btn-second">Cadastrar</button>        
+                </form>
+            </div><!-- second column -->
+        </div><!-- first content -->
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Olá,amigo!</h2>
+                <p class="description description-primary">Faça o cadastro de setores</p>
+                <p class="description description-primary">preenchendo os dados a seguir...</p>
+                <button id="signup" class="btn btn-primary"> Inicie Cadastro</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-second">Cadastro de pessoas!</h2>
+              
+                <p class="description description-second">Preencha os dados a seguir:</p>
+                <form class="form" method="GET" action="">
+                
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input name="colaborador" type="text" placeholder="Nome do colaborador">
+                    </label>
+                
+                    <label class="label-input" for="">
+                        <i class="fas fa-store-alt icon-modify"></i>
+                        <input name="setor" type="text" placeholder="Seu respectivo setor">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-mobile-alt icon-modify"></i>
+                        <input name="telefone" type="text" placeholder="Telefone">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-mobile-alt icon-modify"></i>
+                        <input name="telefone" type="text" placeholder="Telefone (Whatsapp)">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="far fa-registered icon-modify"></i>
+                        <input name="ramal" type="text" placeholder="Insira o ramal do setor"> 
+                    </label>
+                
+                    
+                    <button class="btn btn-second">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
