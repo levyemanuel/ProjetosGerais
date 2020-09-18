@@ -1,0 +1,44 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    font-size: 12px; float: left;
+}
+body{
+    background-color: lightgray;
+}
+p{
+    background-color: #ff8c1a;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    border-width: 0px;
+    padding: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 80%;
+    border-style: solid;
+    border-color: black;
+}
+#resp{
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #ff8c1a;
+    padding: 10px;
+    margin-top: -15px;
+}
+th {color: black; text-align: center;}
+.h3 {text-align: center; color: black;}
+
+.modal-cont {width: 100vw; height: 100vh; background: rgba(0,0,0,.5); position: fixed; top: 0px; left: 0px;
+            z-index: 2000; display: none; justify-content: center; align-items: center;}
+
+.modal-cont.mostrar {display: flex;}
+
+.modal {background: white; width: 60%; min-width: 300px; padding: 5px; border: 5px solid orange; border-radius: 4px;}
+
+.fechar {position: absolute; width: 65px; height: 50px; border-radius: 4px; color: white; 
+        border: 4px solid red; background: red; cursor: pointer; font-size: 1.2em;}
